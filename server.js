@@ -63,6 +63,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 const path = require("path");
 const db = require("./db");
+require("dotenv").config();
 
 app.use(express.json());
 
